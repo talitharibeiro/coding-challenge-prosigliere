@@ -2,7 +2,7 @@ import React from "react";
 import useCharacterDetails from "./useCharacterDetails";
 
 const CharacterDetails: React.FC = () => {
-  const { id, character, navigate } = useCharacterDetails();
+  const { character, navigate } = useCharacterDetails();
 
   if (!character) return <div>Loading...</div>;
 
