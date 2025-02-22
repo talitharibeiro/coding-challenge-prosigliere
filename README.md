@@ -1,4 +1,3 @@
-
 # 📚 Character Explorer
 
 Welcome to **Character Explorer**, a React application that allows users to explore characters from the Harry Potter universe. With the ability to filter characters by their house and favorite them, the application provides a fun and interactive way to engage with the magical world!
@@ -68,32 +67,6 @@ npm test
 yarn test
 ```
 
-## 🧩 Project Structure
-
-```bash
-├── src
-│   ├── components       # Reusable UI components
-│   ├── pages            # Application pages
-│   ├── hooks            # Custom hooks for state and logic
-│   ├── tests            # Unit and integration tests
-│   └── assets           # Images and other static assets
-```
-
-## 📁 Key Files
-
-- **`src/pages/CharacterList.tsx`**: Renders the list of characters with a filter option.
-- **`src/components/CharacterCard.tsx`**: Displays individual character details.
-- **`src/hooks/useCharacterList.ts`**: Custom hook for fetching and filtering character data.
-- **`src/tests`**: Contains unit tests for different components.
-
-## 📦 API Integration
-
-This application fetches character data from an external API. You can configure the API URL in the environment file `.env`:
-
-```bash
-REACT_APP_API_URL=https://your-api-endpoint.com
-```
-
 ## 🧪 Running Tests
 
 The project is covered with unit tests and integration tests using **Jest** and **React Testing Library**.
@@ -112,7 +85,6 @@ This project follows best practices in terms of code quality:
 
 - **Prettier**: For code formatting
 - **ESLint**: For linting and ensuring code quality
-- **Husky**: Pre-commit hooks to enforce code quality standards
 
 To run lint checks:
 
@@ -130,20 +102,6 @@ npm run format
 yarn format
 ```
 
-## 📝 Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. **Fork** the repository.
-2. **Create** your feature branch: `git checkout -b feature/YourFeature`.
-3. **Commit** your changes: `git commit -m 'Add YourFeature'`.
-4. **Push** to the branch: `git push origin feature/YourFeature`.
-5. **Open a pull request**.
-
 ## 👨‍💻 Authors
 
-- **Your Name** - [GitHub Profile](https://github.com/your-username)
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- **Talitha Ribeiro** - [GitHub Profile](https://github.com/talitharibeiro)
