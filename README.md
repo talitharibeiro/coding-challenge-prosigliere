@@ -2,7 +2,6 @@
 
 Welcome to **Character Explorer**, a React application that allows users to explore characters from the Harry Potter universe. With the ability to filter characters by their house and favorite them, the application provides a fun and interactive way to engage with the magical world!
 
-![Character Explorer](https://your-image-link-here.png)
 
 ## 🛠️ Features
 
